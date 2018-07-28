@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_event_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space"
+    tools:context="com.example.adi.jnanagni.event_details"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+
+            >
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:background="#fff"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="200sp"
+                android:id="@+id/image_event_info"
+                android:layout_margin="2dp"
+                />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="15sp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Event_Description"
+                android:textStyle="bold"
+                android:background="#000"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:id="@+id/text_desc"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+
+                android:layout_marginLeft="10sp"
+                android:id="@+id/text_event_desc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:id="@+id/text_task"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="5sp"
+                android:background="#000"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Event-Task"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+
+
+                android:layout_marginLeft="10sp"
+                android:id="@+id/text_event_task"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="5sp"
+                android:fontFamily="sans-serif-condensed"
+                android:id="@+id/text_spec"
+                android:textStyle="bold"
+                android:background="#000"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="Event-Prerequisite"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+
+                android:layout_marginLeft="10sp"
+                android:id="@+id/text_event_prerequisite"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="5sp"
+                android:id="@+id/text_judge"
+                android:background="#000"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Event-Judgement-Criteria"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="#fff"
+
+                android:id="@+id/text_event_judgemental_criteria"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:id="@+id/text_coor"
+                android:layout_marginTop="15sp"
+                android:background="#000"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:layout_marginLeft="5sp"
+                android:textStyle="bold"
+                android:text="Event-Co-Ordinators"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="#fff"
+                android:textColorLink="@color/colorPrimary"
+                android:autoLink="phone"
+
+                android:id="@+id/text_event_coordinators"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+                android:gravity="center"
+                android:id="@+id/btn_reg_event"
+                android:textColor="#FF4500"
+                android:textSize="18sp"
+                android:background="@drawable/border"
+                android:text="Register/Unregister"
+                android:onClick="register_for_event"
+                android:layout_gravity="center"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

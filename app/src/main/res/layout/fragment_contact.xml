@@ -1,0 +1,136 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contacts"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:textColor="#fff"
+                android:textColorLink="@color/colorPrimary"
+
+                android:text="DR. SUNIL PANWAR\n+919897048445\n(Chairman)"
+                android:textSize="14dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="#757575" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:textColor="#fff"
+                android:textColorLink="@color/colorPrimary"
+
+
+                android:text="DR. MAYANK AGGARWAL\n+919719004462\n(Coordintor)"
+                android:textSize="14dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="#757575" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#fff"
+                android:textColorLink="@color/colorPrimary"
+                android:layout_height="wrap_content"
+
+                android:autoLink="phone"
+                android:text="MR. SANJEEV KUMAR LAMBHA\n+919897058062\n(Organising Secretary)"
+                android:textSize="14dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="#757575" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textColorLink="@color/colorPrimary"
+
+
+                android:autoLink="phone"
+                android:text="Diwakar Kumar\n+919720088237\n(Student Co-ordinator)"
+                android:textSize="14dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="#757575" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textColorLink="@color/colorPrimary"
+
+                android:autoLink="phone"
+                android:text="Ashu Garg\n+918273354441\n(Student-Co-ordinator)"
+                android:textSize="14dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="#757575" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textColorLink="@color/colorPrimary"
+
+                android:autoLink="phone"
+                android:text="Aditya Tripathi \t:-9450156382\t[Website]\nAditya Kumar Pal:-9696026880\t[Website]\nAditya Agarwal \t:-7895928293\t[Android]\n(Technical Team)"
+                android:textSize="14dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="#757575" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#fff"
+
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/colorPrimary"
+
+                android:autoLink="web"
+                android:text="For more details visit:\n\twww.jnanagni.in"
+                android:textSize="14dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="#757575" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
